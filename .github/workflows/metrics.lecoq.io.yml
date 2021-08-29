@@ -64,9 +64,13 @@ jobs:
           plugin_pagespeed_screenshot: no
           plugin_pagespeed_url: .user.website
           plugin_people: yes
-          plugin_people_limit: 24
+          plugin_people_types: followers, following, thanks
+          plugin_people_limit: 28
           plugin_people_size: 28
-          plugin_people_types: followers, following
+          plugin_people_identicons: no
+          plugin_people_thanks: lowlighter, octocat
+          plugin_people_sponsors_custom: octocat
+          plugin_people_shuffle: yes
           plugin_reactions: yes
           plugin_reactions_limit: 200
           plugin_reactions_limit_issues: 100
