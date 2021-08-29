@@ -73,4 +73,8 @@ jobs:
           plugin_stargazers: yes
           plugin_stars: yes
           plugin_stars_limit: 4
+          plugin_topics: yes
+          plugin_topics_sort: stars
+          plugin_topics_mode: mastered
+          plugin_topics_limit: 0
           plugin_support: yes
